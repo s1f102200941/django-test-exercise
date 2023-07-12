@@ -1,7 +1,8 @@
-from django.test import TestCase,Client
+from django.test import TestCase, Client
 from django.utils import timezone
 from datetime import datetime
 from todo.models import Task
+
 
 class SampleTestCase(TestCase):
     def test_sample1(self):
